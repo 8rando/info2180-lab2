@@ -1,0 +1,109 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define default text styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 18px;
+    color: #2D3748;
+}
+
+.blog-post {
+    float: left; /* Float the blog post to the left */
+    width: 85%; /* Adjust the width as needed */
+    padding: 50px;
+}
+
+
+.blog-image {
+    float: right; /* Float the image to the right */
+    width: 65%; /* Adjust the width as needed */
+    margin-left: 350px; /* Add space between image and text */
+}
+
+.content {
+    margin-right: 20px; /* Add space between text and image */
+}
+
+/* Container styles */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Adjust columns as needed */
+    grid-template-rows: auto auto 1fr auto; /* Adjust rows as needed */
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+/* Header styles */
+header {
+    grid-column: 1 / span 3;
+    background-color: #63B3ED;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50%; /* For a circular effect around the image */
+}
+
+header img {
+    width: 150px; /* Adjust image size as needed */
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Blog post title styles */
+h2 {
+    font-size: 32px;
+    color: #48BB78;
+}
+
+/* Date and author styles */
+.date-author {
+    color: #718096;
+}
+
+/* Sidebar styles */
+aside {
+    background-color: #E2E8F0;
+    padding: 20px;
+}
+
+/* Sidebar headings */
+aside {
+    background-color: #E2E8F0;
+    padding: 20px;
+    max-width: 300px; /* Adjust the maximum width as needed */
+}
+
+/* Sidebar links */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li a {
+    color: #4299E1;
+    text-decoration: none;
+}
+
+/* Footer styles */
+footer {
+    background-color: #2C5282;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+
